@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Initialize ROM manifest
-repo init -u https://github.com/AfterlifeOS/android_manifest.git
+repo init --depth=1 -u https://github.com/AfterlifeOS/android_manifest.git -b 14 --git-lfs
 # repo sync
 /opt/crave/resync.sh
 # cloning DT
