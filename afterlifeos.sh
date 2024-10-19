@@ -20,4 +20,4 @@ git clone https://github.com/EvolutionXOS/android_hardware_xiaomi.git --depth 1 
 # lunch
 lunch lineage_mojito-user
 #bacon
-m evolution 
+m evolution
