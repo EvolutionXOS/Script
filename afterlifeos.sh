@@ -2,8 +2,6 @@
 
 # Remove the local manifests directory if it exists (cleanup before repo initialization)
 rm -rf .repo/local_manifests/
-# remove previous sm-6150-common
-rm -rf device/xiaomi/sm6150-common
 # Initialize ROM manifest
 repo init -u https://github.com/Evolution-X/manifest -b udc --git-lfs
 # repo sync
